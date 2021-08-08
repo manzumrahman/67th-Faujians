@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/* Background */
+.intro-bg{
+    background: rgb(0,0,0,0.5) url('../img/bg.png');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+.nav-brand{
+    display: flex;
+}
+.nav-brand a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Knewave', cursive;
+}
+.nav-brand .nav-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-brand .nav-logo img{
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.nav-list{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+/* First Section  */
+.first-section{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70%;
+    margin: auto;
+}
+.first-half{
+    width: 30%;
+}
+.first-half img{
+    border-radius: 30px;
+}
+.second-half{
+    width: 70%;
+}
+.second-half .headline{
+    font-size: 40px;
+    font-family: 'Knewave', cursive;
+}
+.second-half .description{
+    font-size: 18px;
+}
+.first-section .btn{
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 10px 5px 0 0;
+}
+/* Sections */
+.section{
+    height: 60vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.section .paragraphs{
+    width: 70vw;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.section .paragraphs .section-header{
+    font-size: 40px;
+    font-family: 'Knewave', cursive;
+}
+
+.section .section-thumbnail img{
+    margin: 0 10px;
+    height: 40vh;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+/*  Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:15vh;
+    background: black;
+    color: white;
+}
+/* About Background */
+.about-bg{
+    background-color: rgb(0,0,0,0.6);
+    background-image: url('../img/about-bg.png');
+}
+/* About Section */
+.section-about{
+    margin: 50px auto 0px auto;
+    height: auto;
+    display: block;
+}
+.section-about .paragraphs{
+    font-size: 16px;
+}
+.section-about .section-thumbnail{
+    float: right;
+    margin-top: 50px;
+}
+.section-houses{
+    margin: 50px auto;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.section-heading{
+    font-size: 40px;
+    font-family: 'Knewave', cursive;
+    width: fit-content;
+    margin: auto;
+}
+.section-houses .house{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    margin: 10px auto;
+}
+.house-img img{
+    width: 100%;
+}
+.house-name{
+    font-size: 20px;
+}
+
