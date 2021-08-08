@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -145,19 +147,13 @@
     float: right;
     margin-top: 50px;
 }
+/* Houses */
 .section-houses{
     margin: 50px auto;
     display: flex;
     height: auto;
     justify-content: space-between;
-    align-items: flex-start;
     flex-wrap: wrap;
-}
-.section-heading{
-    font-size: 40px;
-    font-family: 'Knewave', cursive;
-    width: fit-content;
-    margin: auto;
 }
 .section-houses .house{
     width: 45%;
@@ -173,4 +169,38 @@
 .house-name{
     font-size: 20px;
 }
-
+/* Heading */
+.section-heading{
+    font-size: 40px;
+    font-family: 'Knewave', cursive;
+    width: fit-content;
+    margin: auto;
+}
+.section-heading .fh{
+    color: green;
+}
+.section-heading .nh{
+    color: blue;
+}
+.section-heading .rh{
+    color: rgb(255, 217, 0);
+}
+.section-heading .sh{
+    color: red;
+}
+/* Cadet-info */
+.section-cadets{
+    margin: 50px auto;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.section-cadets .cadet-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    margin: 10px auto;
+}
